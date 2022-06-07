@@ -1,0 +1,76 @@
+{
+    "tarifler": {
+        "tarif1": [
+            {"materials": [
+                "140 gram fındık unu",
+                "1,5 yemek kaşığı bal",
+                "1 adet büyük boy muz",
+                "1,5 yemek kaşığı kakao"
+            ]},
+            {"recipe":"Fırını 165 dereceye ısıtın . Muzu çatal yardımıyla ezerek püre kıvamına getirin. Fındık ununu yavaşça ilave edin ve spatula yardımıyla karıştırın. Balı da ilave edin ve hamuru karıştırın.Bu aşamada kakao ilave edebilirsiniz. Kurabiye hamurunun ele yapışmamasına dikkat edin. Yağışıyorsa kıvamına gelinceye kadar fındık unu ilave edebilirsiniz.Tek kıstas hamurun cıvık olmaması. Fırın tepsisine yağlı kağıt serin. Yuvarlayarak tepsiye yerleştirin. Porsiyonladığınız kurabiyelerden 2-3 cm daha küçük çaplı bir kapağı kurabiyenin ortasına hafifçe bastırarak şekil verin.7-8 dakika pişirin ve pişmesi için fazlaca renk almasını değil de kurabiyelerin altının pişip pişmediğini kontrol edin. Fırından alıp dinlendirdikten sonra servis edebilirsiniz. Afiyetler olsun!"},
+            {"link": "https://www.youtube.com/watch?v=VijvxuomuyM"}
+        ],
+
+        "tarif2": [
+            {"materials": [
+                "2 su bardağı yulaf ezmesi",
+                "1 çay bardağı ceviz içi",
+                "3 yemek kaşığı çiğ badem",
+                "1 çay bardağı fındık",
+                "3 yemek kaşığı bal",
+                "1 silme tatlı kaşığı tarçın",
+                "3 yemek kaşığı günkurusu kayısı",
+                "3 yemek kaşığı kurutulmuş erik"
+            ]},
+            {"recipe":"Bir kesme tahtasını fındığı, cevizleri ve bademleri alın ve bir bıçakla doğrayıp, derince bir kaseye alın.Üstlerine yulafı, balı ve tarçını ekleyin. Elinizle bu karışımı iyice karıştırın.Yağlı kâğıt serilmiş bir fırın tepsisine güzelce yayın ve önceden ısıtılmış 180 derece fırında 5 dakika fırınlayın. 5 dakikanın sonunda çıkarıp kaşıkla karıştırın ve tekrar 5 dakika daha fırınlayın.Eğer daha kavruk seviyorsanız fırınlama süresini uzatabilirsiniz. Diğer yemişleri de doğrayın ve bir kenara ayırın.Fırından aldığınız karışım biraz soğuduktan sonra, doğradığınız yaş yemişlerle karıştırın ve tamamen soğuduktan sonra bir kavanoza koyup saklayın. İster sütle ister yoğurtla tüketebilirsiniz. Afiyetler olsun!"},
+            {"link": "https://www.youtube.com/watch?v=aXQTvVPQZCk"}
+        ],
+        "tarif3": [
+            {"materials": [
+                "5 yemek kaşığı süzme yoğurt",
+                "10-12 adet yaban mersini",
+                "6 adet çilek",
+                "1 tatlı kaşığı bal",
+                "1 adet muz",
+                "5-6 adet çiğ badem"
+            ]},
+            {"recipe":"Süzme yoğurdu blenderın içine aktarın.Çileklerin sap kısımları çıkararak üzerine ekleyin.Ardından yaban mersini bal ve chia tohumunu ilave edin.Güzelce karıştırın.Güzelce karıştırın.Karışımı bir kasenin içine alın. Muzu dilimleyin. Üzerini bademler, chia tohumu, muz dilimleri ve yaban mersinleriyle süsleyerek servis edin."},
+            {"link": "https://www.youtube.com/watch?v=zQOSe3wuBOY"}
+        ],
+        "tarif4": [
+            {"materials": [
+                "1,5 su bardağı haşlanmış nohut",
+                "2/3 çay bardağı zeytinyağı",
+                "1/3 demet maydanoz",
+                "1 çay kaşığı kimyon",
+                "1 çay kaşığı karabiber",
+                "1 çay kaşığı tuz",
+                "100 gram lor peynir",
+                "3 yemek kaşığı yoğurt",
+                "1 çay kaşığı toz kırmızı biber"
+            ]},
+            {"recipe":"Haşlanmış nohutları bir kaba alın, üzerine bir miktar zeytinyağı ilave edin.Blender ya da robot yardımıyla güzelce ezin.Ezdiğiniz nohutların üzerine ince doğranmış maydanoz, lor peyniri, zeytinyağının geriye kalan kısmını, baharat ve tuzları ilave edin. Güzelce karıştırın.Ardından harcı güzelce yoğurun.Dilediğiniz gibi şekil vererek pişirme kağıdı fırın tepsisine dizin. 180 derecede önceden ısıtılmış fırında üzerleri hafif renk alana kadar 20 dakika kadar pişirin.Çıkarıp oda sıcaklığında soğumaya bırakın. Yoğurdu güzelce çırparak soğuyan köftelerinizin üzerine gezdirin. Toz kırmızı biber ilave ederek servis edin. Afiyetler olsun!"},
+            {"link": "https://www.youtube.com/watch?v=alpwmbStYi8"}
+        ],
+        "tarif5": [
+            {"materials": [
+                "2 yemek kaşığı nişasta",
+                "3,5 su bardağı süt",
+                "10 adet hurma",
+                "8 adet kuru incir"   
+            ]},
+            {"recipe":"Cam bir kapta bir bardak sütü ve nişastayı güzelce karıştırın ve bir kenara alın.Bir tencereye kalan 2.5 bardak sütü alın ve ocakta kaynama noktasına gelen dek ısıtın Kaynamamasına dikkat edin.İçine doğranmış hurma ve incirleri atıp, karıştırın ve kapağını kapatıp mayalanması için bir kenara alın.Bu şekilde 2 saat oda ısısında beklesin.Bekleme süresinin sonunda bir el blenderı ile hurmayla incirleri çekin ve pürüzsüz hale getirin.Ardından nişastalı karışımı ekleyin, karıştırın ve ocağa alıp 2 taşım kaynatın.Kaselere paylaştırın. Oda ısısında soğuduktan sonra buzdolabında 1 saat kadar bekletip, üstünü süsleyip servis edin. Afiyetler olsun!"},
+            {"link": "https://www.youtube.com/watch?v=m4SA2FGXCQw"}
+        ],
+        "tarif6": [
+            {"materials": [
+                "430-450 gram kavun",
+                "1 su bardağı su",
+                "3 yemek kaşığı nişasta",
+                "1,5 yemek kaşığı hindistan cevizi rendesi"
+            ]},
+            {"recipe":"Kavunun kabuğunu soyun ve dilimleyin.Suyla birlikte kavunu mutfak robotundan geçirin.Buğdaş nişastasını üzerine ekleyip tekrar robottan geçirin.Ardından orta-kısık ateşe aldığınız tencereye ekleyin. Hindistan cevizi rendesini ilave edip karıştırarak pişirmeye başlayın.Kaynayıp kıvamı yoğunlaşmaya başlayınca 2-3 dakika kadar daha pişirin ve ardından ocaktan alın.Servis kaplarına eşit bir şekilde boşaltın. Önce oda sıcaklığında ardından buzdolabında dinlendirin.Dilediğiniz meyveyle süsleyerek veya sade olarak servis edebilirsiniz. Afiyet olsun!"},
+            {"link": "https://www.youtube.com/watch?v=4bSPG69sByE"}
+        ]
+    }
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/kaloriHesap.css">
+    <title>Sağlıklı Yaşam</title>
+</head>
+<body>
+    <nav id="topnav">
+        <div class="logo">
+            <h1>SAĞLIKLI<span>YAŞAM</span></h1>
+        </div>
+        <div id="menus">
+            <ul id="ul">
+                <a href="index.html"><li >Anasayfa</li></a>
+                <a href="diyetProgramlari.html"><li>Diyet Programları</li></a>
+                <a href="kaloriHesapla.html" class="active"><li>Kalori İhtiyacını Hesapla</li></a>
+                <a href="saglikliTarifler.html"><li>Sağlıklı Tarifler</li></a>
+                <div id="btn" class="menu-button3 icon">
+                    <div class="closed3"></div>
+                    <div class="line"></div>
+                </div>
+            </ul>
+        </div>
+    </nav>
+
+
+    <main class="kaloriForm">
+        <form id="calorie-calculator">
+            <h1 class="form-title">Günlük Kalori Hesaplayıcı</h2>
+            <label for="age">Yaş</label>
+            <input type="number" name="age" id="age" placeholder="Yaşınızı girin.." required>
+            <span></span>
+            <div class="radio-group">
+              <label for="sex">CİNSİYET</label>
+              <input type="radio" name="sex" value="male" id="male" checked="checked"> <label for="male">Erkek</label>
+              <input type="radio" name="sex" value="female" id="female"> <label for="female">Kadın</label>
+            </div>
+            <label>KİLO (kg)</label>
+            <input type="number" name="weight" id="weight" placeholder="Kilonuzu girin.." required>
+            <span></span>
+            <label>BOY (cm)</label>
+            <input type="number" name="cm" id="cm" placeholder="Boyunuzu girin.." required>
+            <span></span>
+            <label>AKTİVİTE SIKLIĞI</label>
+            <select name="activity_level" id="activity_level" required>
+              <option value="1.2">Nadiren</option>
+              <option value="1.375">Hafif egzersiz (haftada 1-3 gün)</option>
+              <option value="1.55">Orta düzeyde egzersiz (haftada 3-5 gün)</option>
+              <option value="1.725">Ağır egzersiz (haftada 6-7 gün)</option>
+              <option value="1.9">Çok ağır egzersiz (günde iki kez)</option>
+            </select>
+            <span></span>
+            <label>KALORİ HEDEFİ</label>
+            <select name="gain_loss_amount" id="gain_loss_amount" required>
+              <option value="-1000">Haftada 1 kg ver</option>
+              <option value="-750">Haftada 0.75 kg ver</option>
+              <option value="-500">Haftada 0.5 kg ver</option>
+              <option value="-250">Haftada 0.25 kg ver</option>
+              <option value="0">Kilonu koru</option>
+              <option value="250">Haftada 0.25 kg al</option>
+              <option value="500">Haftada 0.5 kg al</option>
+              <option value="750">Haftada 0.75 kg al</option>
+              <option value="1000">Haftada 1 kg al</option>
+            </select>
+            <span></span>
+            <button type="reset">Sıfırla</button>
+            <button type="submit">Hesapla</button>
+            <div id="results"></div>
+          </form>
+
+          <h1>Makro Besin İhtiyacı</h1>
+          <form id="macro-calculator">
+            <label>PROTEİN (g)</label>
+            <input type="number" name="weight" id="protein" placeholder="Protein.." required>
+            <span></span>
+            <label>YAĞ (g)</label>
+            <input type="number" name="weight" id="fat" placeholder="Yağ.." required>
+            <span></span>
+            <label>KARBONHİDRAT (g)</label>
+            <input type="number" name="weight" id="carbs" placeholder="Karbonhidrat.." required>
+            <span></span>
+            
+            <button type="reset">Sıfırla</button>
+            <button type="submit">Hesapla</button>
+          
+            <div id="m-results"></div>
+          </form>
+
+          <h1>Vücut Kütle Endeksi Hesaplayıcı</h1>
+          <form id="body-mass-calculator">
+            <label>Boy (cm)</label>
+            <input type="number" name="m" id="m" placeholder="Boyunuz.." required>
+            <span></span>
+            <label>KİLO (kg)</label>
+            <input type="number" name="weight" id="kilo" placeholder="Kilonuz.." required>
+            <span></span>
+            
+            <button type="reset">Sıfırla</button>
+            <button type="submit">Hesapla</button>
+            
+            <div id="b-results"></div>
+
+          </form>
+    </main>
+
+    <footer>
+      &#169; @halimaslyk | @dilanozbilgi
+    </footer>
+
+
+
+    <script src="js/script.js"></script>
+    <script src="js/kaloriHesap.js"></script>
+
+</body>
+</html>

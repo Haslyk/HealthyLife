@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.middle-content {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+
+  50% {
+      background-position: 100% 50%;
+  }
+
+  100% {
+      background-position: 0% 50%;
+  }
+} 
+/* .middle-content {
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+} */
+
+.container {
+    position: relative;
+    width: 85%;
+  }
+  
+  /* Make the image to responsive */
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+.yapilis-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+  
+  /* The overlay effect (full height and width) - lays on top of the container and over the image */
+.overlay {
+    position: absolute;
+    display: flex;
+    flex-direction: column-reverse;
+    bottom: 14%;
+    left: 2%;
+    right: 0;
+    background-color: rgb(0, 0, 0 , 0.7);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 96%;
+    height: 87%;
+    transform: scale(0);
+    transition: .3s ease-out;
+    transition-duration: 1s;
+  }
+  
+  /* When you mouse over the container, the overlay text will "zoom" in display */
+.container:hover .overlay  {
+    transform: scale(1);
+  }
+  
+  /* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+.text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 2% 1%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.text .malzemeler {
+    width: 32%;
+    height: auto;
+}
+.malzemeler ul {
+  padding-left: 10%;
+}
+
+.text .yapilis {
+    width: 68%;
+    height: auto;
+    font-size: 1.4rem;
+    margin-left: 2%;
+  }
+
+.link {
+    color: #fff;
+    padding: 1%;
+    width: 50%;
+    background-color: #1ebb5abf;
+    border-radius: 30px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+    transition: .3s ease-out;
+    cursor: pointer!important;
+}
+.link:hover {
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 1px 1px 5px red;
+    transform: translateY(-5px);
+
+}

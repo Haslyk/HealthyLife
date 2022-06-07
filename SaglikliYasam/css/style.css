@@ -1,0 +1,379 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    font-family: 'Quicksand', sans-serif;
+   
+}
+
+/* Navbar */
+
+#topnav {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 1);
+    z-index: 11;
+    display: flex;
+    opacity: 1;
+    justify-content: space-between;
+    transition: opacity cubic-bezier(0.5, 0.04, 0.50, 1) 0.50s 0s;
+}
+
+#broccoli{
+    width:128px;
+    height:128px;
+}
+
+#carrot{
+    width:128px;
+    height:128px;
+}
+#topnav:hover{
+    opacity: 1;
+}
+
+.logo {
+    width: 30%;
+    font-size: 2.1em;
+    color: #18d711;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo span {
+    color: #1ba8e0;
+}
+#menus {
+    width: 50%;
+}
+#menus ul {
+    font-size: 1.9em;
+    display: flex;
+    padding: 15px 5px;
+    list-style-type: none;
+}
+#menus ul a {
+    margin-left: 3%;
+    text-decoration: none;
+    color: rgb(52, 52, 52);
+    transition-duration: 600ms;
+}
+#menus ul a:hover {
+    color: rgb(198, 74, 74);
+    text-decoration: underline;
+}
+
+#menus a.active {
+    color: rgb(198, 74, 74);
+}
+#menus .icon {
+    display: none;
+}
+
+/* Responsive mini menu */ 
+
+.menu-button3{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    top: 40px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+ .menu-button3:hover .line, .menu-button3:hover .line::before,  .menu-button3:hover .line::after{
+    box-shadow: 0 0 3px green;
+}
+
+.line {
+    z-index: 13;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px!important;
+    background: brown;
+    border: 3px solid brown;
+    border-radius: 3px;
+    width: 20px;
+    transition: all 0.5s ease-in-out;
+}
+.line::before, .line::after {
+    content: '';
+    position: absolute;
+    border: 3px solid brown;
+    border-radius: 3px;
+    width: 30px;
+    transition: all 0.5s ease-in-out;
+}
+.line::before {
+    transform: translatey(-10px);
+}
+.line::after {
+    transform: translatey(10px);
+}
+
+@keyframes opc3 {
+    0% {
+        height: 0px;
+   }
+    100% {
+        height: 30px;
+   }
+}
+.menu-button3.open .line {
+    transform: translatex(-75px);
+    width: 0px;
+    margin-top: 0!important;
+    height: 25px;
+    border: 3px solid brown;
+    background: brown;
+    transition: all 0.5s ease-in-out;
+    animation: opc3 0.5s;
+}
+.menu-button3.open .closed3 {
+    text-shadow: 0 0 3px red;
+    transition: all 0.5s ease-in-out;
+}
+.menu-button3.open .line::before {
+    width: 35px;
+    transform: translate(65px) rotate(45deg);
+}
+.menu-button3.open .line::after {
+    width: 35px;
+    transform: translate(65px) rotate(135deg);
+}
+.menu-button3.open:hover .line, .menu-button3.open:hover .line::after, .menu-button3.open:hover .line::before {
+    box-shadow: 0 0 3px red;
+}
+.closed3 {
+    z-index: 14;
+    transition: all 0.5s ease-in-out;
+}
+@keyframes neon2 {
+    from {
+        text-shadow: 0 0 2px red, 0 0 3px red, 0 0 4px red, 0 0 5px red, 0 0 8px red, 0 0 5px red, 0 0 4px red;
+   }
+    to {
+        text-shadow: 0 0 2px brown, 0 0 2px brown, 0 0 2px brown, 0 0 2px #f17, 0 0 3.5px #f17, 0 0 4px #f17, 0 0 5px #f17, 0 0 7.5px #f17;
+   }
+}
+
+
+
+/* Responsive Navbar */
+
+
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 8px;
+    }
+    .responsTopnav {
+        display: flex;
+        flex-direction: column;
+    }
+    #topnav a {display: none;}
+    #topnav .icon {
+      float: right;
+      display: block;
+    }
+    .logo {
+        width: 100%;
+        justify-content: flex-start;
+    }
+    
+    .responsMenu {
+        font-size: 1.3em;
+        line-height: 30px;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.862);
+        width: 100%!important;
+        transition: 600ms ease;
+    }
+    .responsUl {
+        display: inline!important;
+    }
+
+    .responsUl a:not(:last-child) 
+    {
+        display: block!important;
+    } 
+    #btn
+    {
+        position: absolute;
+        top: 23px;
+        right: 10px;
+        font-size: 1.5em;
+    } 
+}
+
+
+
+
+
+
+.content {
+    width: 90%;
+    height: 611px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    border-radius: 56px 0 56px 0;
+    background-image: url('../img/saglik.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.content span {         
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #333;
+    border-radius: 56px 0 56px 0;
+    filter: opacity(0.4);
+}
+
+.content .h {
+    position: absolute;
+    width: 80%;
+    height: 300px;
+    margin: 8% 8%;
+    color: #fff;
+}
+.h h1 {
+    font-size: 4em;
+    background-color: #a12061;
+    display: inline;
+    line-height: 1.6;
+    padding: 0 4px 8px;
+    box-shadow: 10px 0 0 #a12061, -10px 0 0 #a12061;
+}
+.h h2 {
+    font-size: 3.2em;
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 40%);
+    margin-right: 170px;
+}
+
+
+.details {
+    width: 90%;
+    padding: 5%;
+    display: grid;
+    gap: 100px;
+    grid-template-columns: auto auto;
+}
+.details details {
+    width: 90%;
+    padding: 4%;
+    font-size: 1.8em;
+    background-color: #014966;
+    border-radius : 36px 0 36px 0;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+.videos {   
+    height: auto;
+    padding: 5%;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: auto auto auto;
+    margin: 1.7% 5% 5% 5%;
+}
+.tarif, .diyet {
+    margin: 0!important;
+}
+.videos .video {
+    width: 100%;
+    height: auto;
+    z-index: 5;
+    
+}
+.videos .info {
+    width: 100%;
+    height: 200px;
+}
+.video .info .img {
+    width: 100%;
+    height: 110%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.info .img1 {
+    background-image: url(../img/baslangic_spor.jpg);
+}
+.info .img2 {
+    background-image: url(../img/ortaseviye_spor.jpg);
+}
+.img3 {
+    background-image: url(../img/ileri_seviye.jpg);
+}
+.text {
+    text-align: center;
+}
+.text h3 {
+    font-size: 2.4em;
+    color: #1ba8e0;
+    text-align: center;
+}
+.detay {
+    text-align: center;
+}
+.text button {
+    box-shadow: 12px 12px 0 #1ba8e0!important;
+    background: #bf1e2d;
+    border: 0!important;
+    border-radius: 24px;
+    color: #fff!important;
+    display: inline-block;
+    font-family: Quicksand,sans-serif;
+    font-weight: 700;
+    font-size: 1.8em;
+    line-height: 1.5;
+    margin: 16px 28px 12px 0;
+    max-width: 100%;
+    padding: 10px 24px 14px;
+    position: relative;
+    text-align: center;
+    text-decoration: none!important;
+    text-overflow: ellipsis;
+    transform: translateY(0);
+    transition: all .3s ease;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.text button:hover {
+    transform: translate(-5px,-5px);
+}
+
+
+footer {
+    width: 100%;
+    padding: 0.7%;
+    color: #fff;
+    background-color: #014966;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.particles{
+    position: fixed;
+    left:0;top:0;
+    width:100%;
+    height:fit-content;
+    z-index: -1;
+}
